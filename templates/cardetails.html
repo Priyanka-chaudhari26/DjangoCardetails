@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Car Details:</title>
+</head>
+<body>
+    <div class="container mt-5"></div>
+        <h1 class="mb-4">Car Details:</h1>
+        <ul class="list-group">
+        
+        
+            <li class="list-group-item"><img src="{{ car.image.url }}" class="card-img-top img-fluid w-50" alt="Car-details"></li>
+            <li class="list-group-item">Car Model: {{ car.model }} </li>
+            <li class="list-group-item">Make: {{ car.make }}</li>
+            <li class="list-group-item">Mileage: {{ car.mileage }}</li>
+            <li class="list-group-item"> Engine Capacity: {{ car.engine_capacity }}</li>
+            <li class="list-group-item">Fuel Type: {{ car.fuel_type}}</li>
+        
+        
+        
+        </ul>
+        {{ cars.image }}
+    </div>  
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!-- {% for cars in car %}
+        
+        <li class="list-group-item">
+            <a href="{% if user.is_authenticated %}{% url 'cardetails' cars.id %}{% else %} {% url 'login' %} {% endif %}">
+             {{ cars.model }} 
+            </a>
+        </li>
+    {% endfor %} -->
+    <!-- pass: YaPri@1234#  name: Priyanka-->
+      <!--Priyanka 12345678  -->
+
+
+
+      <!-- <div class="card" style="width: 18rem;">
+            <img src="{{ cars.image.url }}" class="card-img-top" alt="Car-details">
+            <div class="card-body">
+            <h5 class="card-title">{{ cars.model }} </h5>
+            <p class="card-text">A new standard. The only one that matters. The Thar ROXX is designed and engineered to offer an unmatched blend of sophistication, performance, presence, safety, and technology.</p>
+            <a href="{% url 'cardetails' %}" class="btn btn-primary">view Details</a>
+            </div>
+        </div> -->
+
+
+        <!-- <li class="list-group-item">
+            <a href="{% if user.is_authenticated %}{% url 'cardetails' id %}{% else %} {% url 'login' %} {% endif %}">
+             {{ cars.model }} 
+            </a>
+        </li> -->
